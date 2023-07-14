@@ -6,25 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Volvo-expl</title>
+  <!-- reset -->
+  <link rel="stylesheet" href="./common/minireset.min.css">
+
+  <!-- favicon -->
+
+  <!-- 오픈그라피 -->
+
   <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+
   <!-- font -->
   <link rel="stylesheet" href="./common/fons.css">
+
   <!-- variable -->
   <link rel="stylesheet" href="./common/variable.css">
+
   <!-- css -->
-  <link rel="stylesheet" href="./common/minireset.min.css">
   <link rel="stylesheet" href="./common/public.css">
 
   <!-- 내가 작성한 css -->
-
   <link rel="stylesheet" href="./volvo-expl.css">
 
-
-  <!-- js & jQ -->
+  <!-- jQ -->
   <script src="./common/jquery-3.7.0.min.js"></script>
-
-
-  <!-- 내가 작성한 js & jQ -->
+  <!-- swiper js -->
+  <script src="./swiper/swiper-bundle.min.js"></script>
+  <!-- 내가 작성한 js -->
   <script src="./volvo-expl.js"></script>
 </head>
 
@@ -219,10 +227,10 @@
           <h3>문제</h3>
           <p>미디어쿼리를 사용함으로서 글씨 크기가 자동<br>으로 변경이 잘 안되는 부분들이 있었음</p>
         </li>
-        <li>톱니</li>
+        <li class="clamp"><img src="./imags/gear.png" alt="겹쳐있는 톱니바퀴"></li>
         <li>
           <h3>해결</h3>
-          <p>cSS - clamp()함수를 사용해서 글자크기를<br>최소, 최대너비를 맞춰 해결</p>
+          <p>CSS - clamp()함수를 사용해서 글자크기를<br>최소, 최대너비를 맞춰 해결</p>
         </li>
       </ul>
       <h2>-image</h2>
@@ -231,43 +239,49 @@
           <h3>문제</h3>
           <p>프로토타입 제작한 디자인과 이미지 크기나 위치가<br>맞지않는 부분이 있었음</p>
         </li>
-        <li>톱니</li>
-        <li>
+        <li class="photo"><img src="./imags/gear.png" alt="겹쳐있는 톱니바퀴"></li>
+        <li class="photo-text">
           <h3>해결</h3>
           <p>photoshop을 이용하여 너비, 위치를 수정하여 해결</p>
         </li>
       </ul>
+      <h2>-파일관리</h2>
       <ul class="solve">
-        <h2>-파일관리</h2>
         <li>
           <h3>문제</h3>
           <p>페이지에 필요한 이미지파일, svg파일이<br>무분별하게 같이 있음</p>
         </li>
-        <li>톱니</li>
-        <li>
+        <li class="file"><img src="./imags/gear.png" alt="겹쳐있는 톱니바퀴"></li>
+        <li class="file-text">
           <h3>해결</h3>
-          <p>효율적으로 관리할 수 있는 방법을 찾아 적용시킬 예정 </p>
+          <p>효율적으로 관리할 수 있는 방법을 찾아 적용시킬 예정</p>
         </li>
       </ul>
     </div>
   </section>
   <footer>
     <div class="slide">
-      <ul>
-        <li>
-          <h1>RE Design</h1>
-        </li>
-        <li>
-          <h1>Volvo SWEDISH</h1>
-        </li>
-      </ul>
+      <div class="viewBox">
+        <div class="slideBox">
+          <div class="leftbox">
+            <div class="slideItem">RE Design</div>
+            <div class="slideItem">Volvo</div>
+            <div class="slideItem">RE Design</div>
+          </div>
+          <div class="rightbox">
+            <div class="slideItem">RE Design</div>
+            <div class="slideItem">Volvo</div>
+            <div class="slideItem">RE Design</div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="address">
       <h3>volvo web-design</h3>
       <p>inddex.html(볼보)</p>
     </div>
     <ul class="top-going">
-      <li>choi geon</li>
+      <li>Choi Geon</li>
       <li>back to top</li>
       <li>2023</li>
     </ul>
