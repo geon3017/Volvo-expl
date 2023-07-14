@@ -303,3 +303,18 @@ header .project-name ul {
   margin: 250px 0 0 184px;
   color: #fff;
 }
+.good h2 {
+  font-size: 40px;
+  margin-bottom: 75px;
+  font-size: 30px;
+}
+.good .problem {
+  margin-left: 20px;
+}
+.good .problem .solve h3 {
+  margin-top: 45px;
+  font-size: 30px;
+}
+.good .problem .solve li {
+  margin-left: 48px;
+}
