@@ -1,16 +1,7 @@
-// 햄버거메뉴 열고 닫기
-$(function () {
-  $('.checkbox').on('click', () => {
-    $('.header').toggleClass('active');
-    $('.logo').toggleClass('active');
-    $('.checkmark span').toggleClass('active');
-    $('.menu').slideToggle(); // == display: block
-  });
-});
-
 // menu 버튼
 $(function () {
   $('.checkbox').on('click', () => {
+    $('.header').toggleClass('active');
     $('.hamburger_btn').toggleClass('active');
     $('.menu').slideToggle(); // == display: block
   });
@@ -28,20 +19,27 @@ $('#home').on('click', () => {
   $('.menu').slideToggle();
 });
 
-// swiper
-let swiper = new Swiper(".mySwiper", {
-  effect: "coverflow",
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
-    slideShadows: true,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-  },
+// 스크롤 올리시 해더 나옴
+let prevScroll = window.scrollY;
+console.log(prevScroll);
+
+$(window).on('scroll', () => {
+  // 스크롤시 변수에 저장
+  let currentScroll = window.scrollY;
+  console.log('currentScroll', currentScroll);
+  console.log('1prevScroll', prevScroll);
+
+  // 이전 스크롤 값이 크면 true, 스크롤을 올리면 header 보임
+  if (prevScroll > currentScroll) {
+    // $('header').show();
+    $('.header').css({ top: 0 });
+  } else {
+    // 이후 스크롤 값이 크면 false, 스크롤을 내리면 header 숨김
+    // $('header').hide();
+    $('.header').css({ top: -150 });
+  }
+
+  // prev에 현재 스크롤 값 대입
+  prevScroll = currentScroll;
+  console.log('2prevScroll', prevScroll);
 });

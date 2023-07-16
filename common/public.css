@@ -10,14 +10,16 @@
 header {
   color: #fff;
   background-color: transparent;
-  font-family: var(--en-font);
 }
 
-.header {
+.main-menu .header {
   padding: 1vh 0 1vh 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #000;
+  padding: 0 168px;
+  height: 150px;
 }
 
 .header p:first-child {
@@ -25,7 +27,7 @@ header {
 }
 
 .header.active {
-  background-color: #000;
+  background-color: #191919;
   color: #fff;
 }
 
