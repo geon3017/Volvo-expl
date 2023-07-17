@@ -284,19 +284,20 @@ header .project-name ul {
 .swiper-play .swiper {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .swiper-play .swiper-wrapper .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
+  width: 20vw;
   height: 300px;
 }
 
 .swiper-play .swiper-wrapper .swiper-slide img {
   display: block;
   width: 100%;
+  height: 17.5vw;
 }
 /****** 문제 및 해결 ******/
 .good {
@@ -318,44 +319,44 @@ header .project-name ul {
   width: 1470px;
 }
 .good .problem .solve h3 {
-  margin-bottom:25px;
+  margin-bottom: 25px;
   font-size: 25px;
 }
-.good .problem .solve p{
+.good .problem .solve p {
   font-size: 20px;
   margin-bottom: 65px;
 }
-.good .problem .solve .clamp { 
+.good .problem .solve .clamp {
   margin-bottom: 50px;
 }
 
 /******** photo-text **********/
-.good .problem .solve .photo{
+.good .problem .solve .photo {
   margin: 0 0 50px -15px;
 }
-.good .problem .solve .photo-text{
+.good .problem .solve .photo-text {
   margin-right: -60px;
 }
 
 /********* file-text ***********/
-.good .problem .solve .file{
+.good .problem .solve .file {
   margin: 0 0 50px 90px;
 }
-.good .problem .solve .file-text{
+.good .problem .solve .file-text {
   margin-right: -70px;
 }
 
 /******* .good .problem .solve img ******/
-.good .problem .solve img{
+.good .problem .solve img {
   width: 40px;
 }
 
 /******** footer *********/
-footer{
+footer {
   margin-top: 300px;
   color: #fff;
 }
-footer .slide{
+footer .slide {
   margin-bottom: 175px;
 }
 /* footer slide */
@@ -396,21 +397,21 @@ footer .slide{
 }
 
 /******** address *******/
-footer .address{
+footer .address {
   border-bottom: 2px solid #fff;
   width: 1470px;
   margin: 0 auto;
   font-size: 35px;
 }
-footer .address h3{
+footer .address h3 {
   text-transform: capitalize;
   margin: 0 0 40px 130px;
 }
-footer .address p{
+footer .address p {
   margin: 0 0 70px 130px;
 }
 
-footer .top-going{
+footer .top-going {
   display: flex;
   justify-content: space-between;
   margin-top: 110px;

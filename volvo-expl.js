@@ -1,24 +1,3 @@
-// menu 버튼
-$(function () {
-  $('.checkbox').on('click', () => {
-    $('.header').toggleClass('active');
-    $('.hamburger_btn').toggleClass('active');
-    $('.menu').slideToggle(); // == display: block
-  });
-});
-
-$('#project').on('click', () => {
-  $('.menu').slideToggle();
-});
-
-$('#about').on('click', () => {
-  $('.menu').slideToggle();
-});
-
-$('#home').on('click', () => {
-  $('.menu').slideToggle();
-});
-
 // 스크롤 올리시 해더 나옴
 let prevScroll = window.scrollY;
 console.log(prevScroll);
@@ -42,4 +21,25 @@ $(window).on('scroll', () => {
   // prev에 현재 스크롤 값 대입
   prevScroll = currentScroll;
   console.log('2prevScroll', prevScroll);
+});
+
+// menu 버튼
+$(function () {
+  $('.checkbox').on('click', () => {
+    $('.header').toggleClass('active');
+    $('.hamburger_btn').toggleClass('active');
+    $('.menu').slideToggle(); // == display: block
+  });
+});
+
+$('#project').on('click', () => {
+  $('.menu').slideToggle();
+});
+
+$('#about').on('click', () => {
+  $('.menu').slideToggle();
+});
+
+$('#home').on('click', () => {
+  $('.menu').slideToggle();
 });
