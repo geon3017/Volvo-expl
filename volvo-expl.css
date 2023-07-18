@@ -43,12 +43,13 @@ header .main-menu .circle {
 
 /******* 프로젝트 이름 ********/
 header .project-name {
-  margin: 10vw 0 436px 17.344vw;
+  margin: 6vw 0 436px 17.344vw;
   text-transform: uppercase;
   text-align: left;
   font-family: var(--main-font);
 }
 header .project-name h1 {
+  margin-top: 10vw;
   font-size: 5.2vw;
   margin-bottom: 80px;
 }
