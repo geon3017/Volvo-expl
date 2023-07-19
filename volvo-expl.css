@@ -43,7 +43,7 @@ header .main-menu .circle {
 
 /******* 프로젝트 이름 ********/
 header .project-name {
-  margin: 6vw 0 436px 17.344vw;
+  margin: 6vw 0 22.708vw 17.344vw;
   text-transform: uppercase;
   text-align: left;
   font-family: var(--main-font);
@@ -68,12 +68,12 @@ header .project-name ul {
   color: #fff;
 }
 .number-1 .target h2 {
-  font-size: 32px;
+  font-size: 1.667vw;
   margin-bottom: 45px;
 }
 .number-1 .target .detail {
   margin-left: 18px;
-  font-size: 25px;
+  font-size: 1.302vw;
   position: relative;
 }
 .number-1 .target .detail li {
@@ -91,23 +91,23 @@ header .project-name ul {
 }
 /******* 스타일 가이드 ******/
 .target .style {
-  margin-top: 245px;
+  margin-top: 12.76vw;
 }
 .target .style h2 {
-  font-size: 40px;
+  font-size: 2.083vw;
   text-transform: capitalize;
 }
 .target .style .keyword {
   display: flex;
-  font-size: 25px;
-  margin: 105px 0 0 20px;
+  font-size: 1.302vw;
+  margin: 5.469vw 0 0 1.042vw;
 }
 .target .style .keyword li {
-  margin-right: 56px;
+  margin-right: 2.917vw;
 }
 .target .style .style-text {
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 1.042vw;
+  margin-left: 1.042vw;
   /* padding: 0 56px; */
 }
 .target .style .style-text p {
@@ -120,47 +120,47 @@ header .project-name ul {
 
 /***** 컬러스타일 ******/
 .number-1 .color {
-  margin-top: 110px;
+  margin-top: 5.729vw;
 }
 .number-1 .color h2 {
-  font-size: 28px;
+  font-size: 1.458vw;
   margin-left: 20px;
   text-transform: capitalize;
 }
 .number-1 .color p {
-  font-size: 20px;
+  font-size: 1.042vw;
 }
 .number-1 .color .color-2 ul {
   display: flex;
   align-items: center;
-  margin: 73px 45px;
+  margin: 3.802vw 2.344vw;
 }
 .number-1 .color .color-2 ul li:last-child {
-  width: 97px;
-  height: 97px;
+  width: 5.052vw;
+  height: 5.052vw;
   border-radius: 10px;
   color: #222;
-  font-size: 18px;
+  font-size: 0.938vw;
   text-align: center;
-  line-height: 140px;
+  line-height: 8;
   background-color: #eee;
 }
 .number-1 .color .color-2 .color-eeee li:last-child {
-  margin-left: 110px;
+  margin-left: 5.729vw;
 }
 .number-1 .color .color-2 .color-007be1 li:last-child {
   background-color: #007be1;
   text-transform: uppercase;
-  margin-left: 47px;
+  margin-left: 2.448vw;
 }
 
 /******* 폰트스타일 *******/
 .font h2 {
-  margin-top: 120px;
+  margin-top: 6.25vw;
   text-transform: capitalize;
 }
 .font .font-style {
-  margin: 70px 45px;
+  margin: 3.646vw 2.344vw;
   display: flex;
 }
 .font .font-style li {
@@ -179,43 +179,43 @@ header .project-name ul {
 
 /***** pc-기준 ******/
 .font .font-style .font-size .pc-standard p:nth-child(3) {
-  font-size: 30px;
+  font-size: 1.563vw;
 }
 .font .font-style .font-size .pc-standard p:nth-child(4) {
-  font-size: 30px;
+  font-size: 1.563vw;
 }
 .font .font-style .font-size li .pc {
-  margin-right: 80px;
+  margin-right: 4.167vw;
   text-transform: uppercase;
 }
 
 /***** 테블릿-기준 ******/
 .font .font-style .font-size .tablet-standard p:first-child {
-  margin-right: 50px;
+  margin-right: 2.604vw;
 }
 .font .font-style .font-size .tablet-standard p:nth-child(3) {
-  font-size: 25px;
+  font-size: 1.302vw;
 }
 .font .font-style .font-size .tablet-standard p:nth-child(4) {
-  font-size: 25px;
+  font-size: 1.302vw;
 }
 
 /***** 모바일-기준 ******/
 .font .font-style .font-size .mobile-standard p:first-child {
-  margin-right: 48px;
+  margin-right: 2.5vw;
 }
 
 .font .font-style .font-text li {
   display: flex;
-  margin: 20px 160px;
+  margin: 1.042vw 8.333vw;
 }
 .font .font-style .font-text li p {
-  margin: 0 30px;
+  margin: 0 1.563vw;
 }
 
 /******* button *******/
 .button-style {
-  margin: 132px 0;
+  margin: 1.563vw 0;
 }
 .button-style h2 {
   text-transform: capitalize;
@@ -225,10 +225,10 @@ header .project-name ul {
 }
 .button-style p {
   text-align: center;
-  line-height: 50px;
-  width: 150px;
-  height: 50px;
-  margin-right: 50px;
+  line-height: 2.604vw;
+  width: 7.813vw;
+  height: 2.604vw;
+  margin-right: 2.604vw;
   border-radius: 5px;
 }
 
@@ -240,11 +240,11 @@ header .project-name ul {
 .button-style .normal {
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 1.042vw;
 }
 
 .button-style .normal h4 {
-  margin-right: 50px;
+  margin-right: 2.604vw;
 }
 .button-style .normal p {
   background-color: #eee;
@@ -255,11 +255,11 @@ header .project-name ul {
 .button-style .hover {
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 1.042vw;
 }
 
 .button-style .hover h4 {
-  margin-right: 62px;
+  margin-right: 3.229vw;
 }
 .button-style .hover p {
   background-color: #007be1;
@@ -267,39 +267,39 @@ header .project-name ul {
 
 /****** 퍼블리싱 ******/
 .pub {
-  margin: 230px 0 0 184px;
+  margin: 11.979vw 0 0 9.583vw;
   color: #fff;
 }
 .pub h2 {
-  font-size: 40px;
-  margin-bottom: 0px;
+  font-size: 2.083vw;
+  margin-bottom: 86px;
 }
 .pub div {
-  margin: 30px 0 0 42px;
+  margin: 1.563vw 0 3vw 2.188vw;
   border-bottom: 2px solid #fff;
   width: 76.563vw;
-  font-size: 25px;
+  font-size: 1.302vw;
 }
 .pub div p {
-  margin: 20px 0 20px 64px;
+  margin: 1.042vw 0 0 3.385vw;
 }
 .pub div p:last-child {
-  margin-bottom: 65px;
+  margin-bottom: 3.385vw;
 }
 .swiper-play div {
   border: none;
 }
 .swiper-play .swiper {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 2.604vw;
+  padding-bottom: 5.208vw;
 }
 
 .swiper-play .swiper-wrapper .swiper-slide {
   background-position: center;
   background-size: cover;
   width: 20vw;
-  height: 300px;
+  height: 15.625vw;
 }
 
 .swiper-play .swiper-wrapper .swiper-slide img {
@@ -309,12 +309,12 @@ header .project-name ul {
 }
 /****** 문제 및 해결 ******/
 .good {
-  margin: 250px 0 0 184px;
+  margin: 13.021vw 0 0 9.583vw;
   color: #fff;
 }
 .good h2 {
-  margin: 50px 0 75px 0;
-  font-size: 30px;
+  margin: 2.604vw 0 3.906vw 0;
+  font-size: 1.563vw;
 }
 .good .problem {
   margin-left: 20px;
@@ -327,36 +327,37 @@ header .project-name ul {
   width: 76.563vw;
 }
 .good .problem .solve h3 {
-  margin-bottom: 25px;
-  font-size: 25px;
+  margin-bottom: 1.302vw;
+  font-size: 1.302vw;
 }
 .good .problem .solve p {
-  font-size: 20px;
-  margin-bottom: 65px;
+  font-size: 1.042vw;
+  line-height: 1.5;
+  margin-bottom: 3.385vw;
 }
 .good .problem .solve .clamp {
-  margin-bottom: 50px;
+  margin-bottom: 2.604vw;
 }
 
 /******** photo-text **********/
 .good .problem .solve .photo {
-  margin: 0 0 50px -15px;
+  margin: 0 0 2.604vw -0.781vw;
 }
 .good .problem .solve .photo-text {
-  margin-right: -60px;
+  margin-right: -3.125vw;
 }
 
 /********* file-text ***********/
 .good .problem .solve .file {
-  margin: 0 0 50px 90px;
+  margin: 0 0 2.604vw 4.688vw;
 }
 .good .problem .solve .file-text {
-  margin-right: -70px;
+  margin-right: -3.646vw;
 }
 
 /******* .good .problem .solve img ******/
 .good .problem .solve img {
-  width: 40px;
+  width: 2.083vw;
 }
 
 /******** footer *********/
@@ -409,21 +410,21 @@ footer .address {
   border-bottom: 2px solid #fff;
   width: 76.563vw;
   margin: 0 auto;
-  font-size: 35px;
+  font-size: 1.823vw;
 }
 footer .address h3 {
   text-transform: capitalize;
-  margin: 0 0 40px 130px;
+  margin: 0 0 2.083vw 6.771vw;
 }
 footer .address p {
-  margin: 0 0 70px 130px;
+  margin: 0 0 3.646vw 6.771vw;
 }
 
 footer .top-going {
   display: flex;
   justify-content: space-between;
-  margin-top: 110px;
-  height: 80px;
-  font-size: 25px;
-  padding: 0 230px;
+  margin-top: 5.729vw;
+  height: 4.167vw;
+  font-size: 1.302vw;
+  padding: 0 11.979vw;
 }
