@@ -471,4 +471,5 @@ footer .top-going {
   height: 4.167vw;
   font-size: 1.302vw;
   padding: 0 11.979vw;
+  text-transform: capitalize;
 }
