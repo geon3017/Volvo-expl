@@ -79,6 +79,13 @@ header .project-name ul {
 .number-1 .target .detail li {
   margin: 20px;
 }
+.number-1 .target .detail li p{
+ margin-top: 2.2vw;
+}
+.number-1 .target .detail li p {
+  background: url(./imags/Arrow-right.png) no-repeat 50% / contain;
+  margin-right: 40vw;
+}
 
 .number-1 .target .red-back {
   background: url(./imags/red-gradient.png) no-repeat 50% / cover;
